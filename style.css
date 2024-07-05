@@ -460,8 +460,6 @@ section .title::after{
 }
 
 
-
-
 /* portfolio section styling */
 
 .portfolio {
@@ -714,11 +712,40 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .resume .title {
+        font-size: 30px;
+    }
+
+    .resume h2, .resume h3, .resume h4, .resume h5 {
+        font-size: 24px;
+    }
+
 }
 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
+    }
+    .resume {
+        padding: 20px 30px;
+    }
+
+    .resume .container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .resume .title {
+        font-size: 28px;
+    }
+
+    .resume h2, .resume h3, .resume h4, .resume h5 {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    .resume ul li {
+        margin-left: 10px;
     }
 }
 @media (max-width: 947px){
@@ -764,15 +791,12 @@ footer span a:hover{
     .max-width{
         max-width: 930px;
     }
-    .about .about-content .column{
+    .about .about-content .column
+    {
         width: 100%;
     }
-    .about .about-content .left{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-    .about .about-content .right{
+    .about .about-content .right
+    {
         flex: 100%;
     }
     .services .serv-content .card{
@@ -801,6 +825,26 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .resume {
+        padding: 15px 20px;
+    }
+
+    .resume .title {
+        font-size: 25px;
+    }
+
+    .resume h2, .resume h3, .resume h4, .resume h5 {
+        margin-left: 5px;
+    }
+
+    .resume p {
+        padding: 0 10px;
+    }
+
+    .resume ul li {
+        margin-left: 5px;
+        padding-left: 5px;
     }
 }
 
@@ -832,6 +876,26 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .resume {
+        padding: 10px 15px;
+    }
+
+    .resume .title {
+        font-size: 22px;
+    }
+
+    .resume h2, .resume h3, .resume h4, .resume h5 {
+        margin-left: 0;
+    }
+
+    .resume p {
+        padding: 0 5px;
+    }
+
+    .resume ul li {
+        margin-left: 0;
+        padding-left: 0;
     }
 }
 
