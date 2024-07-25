@@ -602,7 +602,7 @@ section .title::after{
     font-weight: 700;
     color: #eee;
 }
-.contact .contact-content .info .sub-title{
+.contact .contact-content .info .sub-title a{
     color: #fff;
     font-weight: 200;
 }
