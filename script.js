@@ -56,3 +56,23 @@ $(document).ready(function(){
         }
     });
 });
+
+
+$(document).ready(function() {
+    $('.card .box').click(function() {
+        var card = $(this).closest('.card');
+        
+        // Toggle the expanded class
+        card.toggleClass('expanded');
+    });
+
+    $('.card .details').click(function() {
+        var card = $(this).closest('.card');
+        
+        // Toggle the expanded class
+        card.toggleClass('expanded');
+    });
+});
+
+
+
